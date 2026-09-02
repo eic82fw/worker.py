@@ -1,0 +1,10 @@
+[project]
+name = "my-worker"
+version = "0.1.0"
+dependencies = [
+    "pywrangler>=0.1.0"  # ← این خط رو اضافه کن
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
